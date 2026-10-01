@@ -89,6 +89,5 @@ def test_all_rules_together_and_original_columns_preserved(spark):
     assert len(rows) == 1
     assert rows[0]["id"] == 1
 
- 
-
+ # CI test trigger
 
